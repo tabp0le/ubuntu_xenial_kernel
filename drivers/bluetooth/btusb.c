@@ -123,6 +123,7 @@ static const struct usb_device_id btusb_table[] = {
 
 	/* Broadcom BCM20702A0 */
 	{ USB_DEVICE(0x413c, 0x8197) },
+	{ USB_DEVICE(0x413c, 0x8143), .driver_info = BTUSB_BCM_PATCHRAM },
 
 	/* Broadcom BCM20702B0 (Dynex/Insignia) */
 	{ USB_DEVICE(0x19ff, 0x0239), .driver_info = BTUSB_BCM_PATCHRAM },
